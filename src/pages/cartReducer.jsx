@@ -26,7 +26,7 @@ export const cartReducer = (state, action) => {
         //so here we are updating cartby removing the product using its id
         // if filter out them into a new array where the "id" is not equal to the "id got clicked " i.e. is in "payload.id"
         // mean cart:[a,b, c,d]  payload : b -> if (a !== b) return into new array [a] , check b!==b -> false -> filtered -> c!==b -> [a, c] also same for d -> cart: [a,c,d] -> returns new state
-        console.log("hello decremrent");
+        console.log("hello decremrent")
         return state;
 
     }
